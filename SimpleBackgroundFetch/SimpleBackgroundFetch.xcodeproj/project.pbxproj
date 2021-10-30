@@ -16,7 +16,7 @@
 		ABF4C62727284B2300FE9AC5 /* SimpleBackgroundFetchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF4C62627284B2300FE9AC5 /* SimpleBackgroundFetchTests.swift */; };
 		ABF4C63127284B2300FE9AC5 /* SimpleBackgroundFetchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF4C63027284B2300FE9AC5 /* SimpleBackgroundFetchUITests.swift */; };
 		ABF4C63327284B2300FE9AC5 /* SimpleBackgroundFetchUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF4C63227284B2300FE9AC5 /* SimpleBackgroundFetchUITestsLaunchTests.swift */; };
-		ABF4C6D3272DED0800FE9AC5 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF4C6D2272DED0800FE9AC5 /* UIView.swift */; };
+		ABF4C647272B07F500FE9AC5 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF4C646272B07F500FE9AC5 /* UIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +50,7 @@
 		ABF4C62C27284B2300FE9AC5 /* SimpleBackgroundFetchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleBackgroundFetchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABF4C63027284B2300FE9AC5 /* SimpleBackgroundFetchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleBackgroundFetchUITests.swift; sourceTree = "<group>"; };
 		ABF4C63227284B2300FE9AC5 /* SimpleBackgroundFetchUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleBackgroundFetchUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		ABF4C6D2272DED0800FE9AC5 /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		ABF4C646272B07F500FE9AC5 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,7 +133,7 @@
 		ABF4C645272B07E200FE9AC5 /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				ABF4C6D2272DED0800FE9AC5 /* UIView.swift */,
+				ABF4C646272B07F500FE9AC5 /* UIView.swift */,
 			);
 			name = UI;
 			path = SimpleBackgroundFetch/UI;
@@ -270,9 +270,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABF4C6D3272DED0800FE9AC5 /* UIView.swift in Sources */,
 				ABF4C61427284B2100FE9AC5 /* ViewController.swift in Sources */,
 				ABF4C61027284B2100FE9AC5 /* AppDelegate.swift in Sources */,
+				ABF4C647272B07F500FE9AC5 /* UIView.swift in Sources */,
 				ABF4C61227284B2100FE9AC5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
