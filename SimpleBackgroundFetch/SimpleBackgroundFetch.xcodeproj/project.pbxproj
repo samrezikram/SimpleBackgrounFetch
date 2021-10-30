@@ -7,66 +7,68 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		ABF4C667272DEA3100FE9AC5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF4C666272DEA3100FE9AC5 /* AppDelegate.swift */; };
-		ABF4C669272DEA3100FE9AC5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF4C668272DEA3100FE9AC5 /* SceneDelegate.swift */; };
-		ABF4C66B272DEA3100FE9AC5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF4C66A272DEA3100FE9AC5 /* ViewController.swift */; };
-		ABF4C66E272DEA3100FE9AC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABF4C66C272DEA3100FE9AC5 /* Main.storyboard */; };
-		ABF4C670272DEA3300FE9AC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABF4C66F272DEA3300FE9AC5 /* Assets.xcassets */; };
-		ABF4C673272DEA3300FE9AC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABF4C671272DEA3300FE9AC5 /* LaunchScreen.storyboard */; };
-		ABF4C67E272DEA3300FE9AC5 /* SimpleBackgroundFetchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF4C67D272DEA3300FE9AC5 /* SimpleBackgroundFetchTests.swift */; };
-		ABF4C688272DEA3300FE9AC5 /* SimpleBackgroundFetchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF4C687272DEA3300FE9AC5 /* SimpleBackgroundFetchUITests.swift */; };
-		ABF4C68A272DEA3300FE9AC5 /* SimpleBackgroundFetchUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF4C689272DEA3300FE9AC5 /* SimpleBackgroundFetchUITestsLaunchTests.swift */; };
+		ABF4C61027284B2100FE9AC5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF4C60F27284B2100FE9AC5 /* AppDelegate.swift */; };
+		ABF4C61227284B2100FE9AC5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF4C61127284B2100FE9AC5 /* SceneDelegate.swift */; };
+		ABF4C61427284B2100FE9AC5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF4C61327284B2100FE9AC5 /* ViewController.swift */; };
+		ABF4C61727284B2100FE9AC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABF4C61527284B2100FE9AC5 /* Main.storyboard */; };
+		ABF4C61927284B2300FE9AC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABF4C61827284B2300FE9AC5 /* Assets.xcassets */; };
+		ABF4C61C27284B2300FE9AC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABF4C61A27284B2300FE9AC5 /* LaunchScreen.storyboard */; };
+		ABF4C62727284B2300FE9AC5 /* SimpleBackgroundFetchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF4C62627284B2300FE9AC5 /* SimpleBackgroundFetchTests.swift */; };
+		ABF4C63127284B2300FE9AC5 /* SimpleBackgroundFetchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF4C63027284B2300FE9AC5 /* SimpleBackgroundFetchUITests.swift */; };
+		ABF4C63327284B2300FE9AC5 /* SimpleBackgroundFetchUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF4C63227284B2300FE9AC5 /* SimpleBackgroundFetchUITestsLaunchTests.swift */; };
+		ABF4C6D3272DED0800FE9AC5 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF4C6D2272DED0800FE9AC5 /* UIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		ABF4C67A272DEA3300FE9AC5 /* PBXContainerItemProxy */ = {
+		ABF4C62327284B2300FE9AC5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = ABF4C65B272DEA3100FE9AC5 /* Project object */;
+			containerPortal = ABF4C60427284B2100FE9AC5 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = ABF4C662272DEA3100FE9AC5;
+			remoteGlobalIDString = ABF4C60B27284B2100FE9AC5;
 			remoteInfo = SimpleBackgroundFetch;
 		};
-		ABF4C684272DEA3300FE9AC5 /* PBXContainerItemProxy */ = {
+		ABF4C62D27284B2300FE9AC5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = ABF4C65B272DEA3100FE9AC5 /* Project object */;
+			containerPortal = ABF4C60427284B2100FE9AC5 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = ABF4C662272DEA3100FE9AC5;
+			remoteGlobalIDString = ABF4C60B27284B2100FE9AC5;
 			remoteInfo = SimpleBackgroundFetch;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		ABF4C663272DEA3100FE9AC5 /* SimpleBackgroundFetch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleBackgroundFetch.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		ABF4C666272DEA3100FE9AC5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		ABF4C668272DEA3100FE9AC5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		ABF4C66A272DEA3100FE9AC5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		ABF4C66D272DEA3100FE9AC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		ABF4C66F272DEA3300FE9AC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		ABF4C672272DEA3300FE9AC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		ABF4C674272DEA3300FE9AC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ABF4C679272DEA3300FE9AC5 /* SimpleBackgroundFetchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleBackgroundFetchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		ABF4C67D272DEA3300FE9AC5 /* SimpleBackgroundFetchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleBackgroundFetchTests.swift; sourceTree = "<group>"; };
-		ABF4C683272DEA3300FE9AC5 /* SimpleBackgroundFetchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleBackgroundFetchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		ABF4C687272DEA3300FE9AC5 /* SimpleBackgroundFetchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleBackgroundFetchUITests.swift; sourceTree = "<group>"; };
-		ABF4C689272DEA3300FE9AC5 /* SimpleBackgroundFetchUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleBackgroundFetchUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		ABF4C60C27284B2100FE9AC5 /* SimpleBackgroundFetch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleBackgroundFetch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABF4C60F27284B2100FE9AC5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ABF4C61127284B2100FE9AC5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		ABF4C61327284B2100FE9AC5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ABF4C61627284B2100FE9AC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ABF4C61827284B2300FE9AC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ABF4C61B27284B2300FE9AC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ABF4C61D27284B2300FE9AC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABF4C62227284B2300FE9AC5 /* SimpleBackgroundFetchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleBackgroundFetchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABF4C62627284B2300FE9AC5 /* SimpleBackgroundFetchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleBackgroundFetchTests.swift; sourceTree = "<group>"; };
+		ABF4C62C27284B2300FE9AC5 /* SimpleBackgroundFetchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleBackgroundFetchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABF4C63027284B2300FE9AC5 /* SimpleBackgroundFetchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleBackgroundFetchUITests.swift; sourceTree = "<group>"; };
+		ABF4C63227284B2300FE9AC5 /* SimpleBackgroundFetchUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleBackgroundFetchUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		ABF4C6D2272DED0800FE9AC5 /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		ABF4C660272DEA3100FE9AC5 /* Frameworks */ = {
+		ABF4C60927284B2100FE9AC5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ABF4C676272DEA3300FE9AC5 /* Frameworks */ = {
+		ABF4C61F27284B2300FE9AC5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ABF4C680272DEA3300FE9AC5 /* Frameworks */ = {
+		ABF4C62927284B2300FE9AC5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,67 +78,77 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		ABF4C65A272DEA3100FE9AC5 = {
+		ABF4C60327284B2100FE9AC5 = {
 			isa = PBXGroup;
 			children = (
-				ABF4C665272DEA3100FE9AC5 /* SimpleBackgroundFetch */,
-				ABF4C67C272DEA3300FE9AC5 /* SimpleBackgroundFetchTests */,
-				ABF4C686272DEA3300FE9AC5 /* SimpleBackgroundFetchUITests */,
-				ABF4C664272DEA3100FE9AC5 /* Products */,
+				ABF4C645272B07E200FE9AC5 /* UI */,
+				ABF4C60E27284B2100FE9AC5 /* SimpleBackgroundFetch */,
+				ABF4C62527284B2300FE9AC5 /* SimpleBackgroundFetchTests */,
+				ABF4C62F27284B2300FE9AC5 /* SimpleBackgroundFetchUITests */,
+				ABF4C60D27284B2100FE9AC5 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		ABF4C664272DEA3100FE9AC5 /* Products */ = {
+		ABF4C60D27284B2100FE9AC5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				ABF4C663272DEA3100FE9AC5 /* SimpleBackgroundFetch.app */,
-				ABF4C679272DEA3300FE9AC5 /* SimpleBackgroundFetchTests.xctest */,
-				ABF4C683272DEA3300FE9AC5 /* SimpleBackgroundFetchUITests.xctest */,
+				ABF4C60C27284B2100FE9AC5 /* SimpleBackgroundFetch.app */,
+				ABF4C62227284B2300FE9AC5 /* SimpleBackgroundFetchTests.xctest */,
+				ABF4C62C27284B2300FE9AC5 /* SimpleBackgroundFetchUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		ABF4C665272DEA3100FE9AC5 /* SimpleBackgroundFetch */ = {
+		ABF4C60E27284B2100FE9AC5 /* SimpleBackgroundFetch */ = {
 			isa = PBXGroup;
 			children = (
-				ABF4C666272DEA3100FE9AC5 /* AppDelegate.swift */,
-				ABF4C668272DEA3100FE9AC5 /* SceneDelegate.swift */,
-				ABF4C66A272DEA3100FE9AC5 /* ViewController.swift */,
-				ABF4C66C272DEA3100FE9AC5 /* Main.storyboard */,
-				ABF4C66F272DEA3300FE9AC5 /* Assets.xcassets */,
-				ABF4C671272DEA3300FE9AC5 /* LaunchScreen.storyboard */,
-				ABF4C674272DEA3300FE9AC5 /* Info.plist */,
+				ABF4C60F27284B2100FE9AC5 /* AppDelegate.swift */,
+				ABF4C61127284B2100FE9AC5 /* SceneDelegate.swift */,
+				ABF4C61327284B2100FE9AC5 /* ViewController.swift */,
+				ABF4C61527284B2100FE9AC5 /* Main.storyboard */,
+				ABF4C61827284B2300FE9AC5 /* Assets.xcassets */,
+				ABF4C61A27284B2300FE9AC5 /* LaunchScreen.storyboard */,
+				ABF4C61D27284B2300FE9AC5 /* Info.plist */,
 			);
 			path = SimpleBackgroundFetch;
 			sourceTree = "<group>";
 		};
-		ABF4C67C272DEA3300FE9AC5 /* SimpleBackgroundFetchTests */ = {
+		ABF4C62527284B2300FE9AC5 /* SimpleBackgroundFetchTests */ = {
 			isa = PBXGroup;
 			children = (
-				ABF4C67D272DEA3300FE9AC5 /* SimpleBackgroundFetchTests.swift */,
+				ABF4C62627284B2300FE9AC5 /* SimpleBackgroundFetchTests.swift */,
 			);
 			path = SimpleBackgroundFetchTests;
 			sourceTree = "<group>";
 		};
-		ABF4C686272DEA3300FE9AC5 /* SimpleBackgroundFetchUITests */ = {
+		ABF4C62F27284B2300FE9AC5 /* SimpleBackgroundFetchUITests */ = {
 			isa = PBXGroup;
 			children = (
-				ABF4C687272DEA3300FE9AC5 /* SimpleBackgroundFetchUITests.swift */,
-				ABF4C689272DEA3300FE9AC5 /* SimpleBackgroundFetchUITestsLaunchTests.swift */,
+				ABF4C63027284B2300FE9AC5 /* SimpleBackgroundFetchUITests.swift */,
+				ABF4C63227284B2300FE9AC5 /* SimpleBackgroundFetchUITestsLaunchTests.swift */,
 			);
 			path = SimpleBackgroundFetchUITests;
+			sourceTree = "<group>";
+		};
+		ABF4C645272B07E200FE9AC5 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				ABF4C6D2272DED0800FE9AC5 /* UIView.swift */,
+			);
+			name = UI;
+			path = SimpleBackgroundFetch/UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		ABF4C662272DEA3100FE9AC5 /* SimpleBackgroundFetch */ = {
+		ABF4C60B27284B2100FE9AC5 /* SimpleBackgroundFetch */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ABF4C68D272DEA3300FE9AC5 /* Build configuration list for PBXNativeTarget "SimpleBackgroundFetch" */;
+			buildConfigurationList = ABF4C63627284B2300FE9AC5 /* Build configuration list for PBXNativeTarget "SimpleBackgroundFetch" */;
 			buildPhases = (
-				ABF4C65F272DEA3100FE9AC5 /* Sources */,
-				ABF4C660272DEA3100FE9AC5 /* Frameworks */,
-				ABF4C661272DEA3100FE9AC5 /* Resources */,
+				ABF4C60827284B2100FE9AC5 /* Sources */,
+				ABF4C60927284B2100FE9AC5 /* Frameworks */,
+				ABF4C60A27284B2100FE9AC5 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -144,69 +156,69 @@
 			);
 			name = SimpleBackgroundFetch;
 			productName = SimpleBackgroundFetch;
-			productReference = ABF4C663272DEA3100FE9AC5 /* SimpleBackgroundFetch.app */;
+			productReference = ABF4C60C27284B2100FE9AC5 /* SimpleBackgroundFetch.app */;
 			productType = "com.apple.product-type.application";
 		};
-		ABF4C678272DEA3300FE9AC5 /* SimpleBackgroundFetchTests */ = {
+		ABF4C62127284B2300FE9AC5 /* SimpleBackgroundFetchTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ABF4C690272DEA3300FE9AC5 /* Build configuration list for PBXNativeTarget "SimpleBackgroundFetchTests" */;
+			buildConfigurationList = ABF4C63927284B2300FE9AC5 /* Build configuration list for PBXNativeTarget "SimpleBackgroundFetchTests" */;
 			buildPhases = (
-				ABF4C675272DEA3300FE9AC5 /* Sources */,
-				ABF4C676272DEA3300FE9AC5 /* Frameworks */,
-				ABF4C677272DEA3300FE9AC5 /* Resources */,
+				ABF4C61E27284B2300FE9AC5 /* Sources */,
+				ABF4C61F27284B2300FE9AC5 /* Frameworks */,
+				ABF4C62027284B2300FE9AC5 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				ABF4C67B272DEA3300FE9AC5 /* PBXTargetDependency */,
+				ABF4C62427284B2300FE9AC5 /* PBXTargetDependency */,
 			);
 			name = SimpleBackgroundFetchTests;
 			productName = SimpleBackgroundFetchTests;
-			productReference = ABF4C679272DEA3300FE9AC5 /* SimpleBackgroundFetchTests.xctest */;
+			productReference = ABF4C62227284B2300FE9AC5 /* SimpleBackgroundFetchTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		ABF4C682272DEA3300FE9AC5 /* SimpleBackgroundFetchUITests */ = {
+		ABF4C62B27284B2300FE9AC5 /* SimpleBackgroundFetchUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ABF4C693272DEA3300FE9AC5 /* Build configuration list for PBXNativeTarget "SimpleBackgroundFetchUITests" */;
+			buildConfigurationList = ABF4C63C27284B2300FE9AC5 /* Build configuration list for PBXNativeTarget "SimpleBackgroundFetchUITests" */;
 			buildPhases = (
-				ABF4C67F272DEA3300FE9AC5 /* Sources */,
-				ABF4C680272DEA3300FE9AC5 /* Frameworks */,
-				ABF4C681272DEA3300FE9AC5 /* Resources */,
+				ABF4C62827284B2300FE9AC5 /* Sources */,
+				ABF4C62927284B2300FE9AC5 /* Frameworks */,
+				ABF4C62A27284B2300FE9AC5 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				ABF4C685272DEA3300FE9AC5 /* PBXTargetDependency */,
+				ABF4C62E27284B2300FE9AC5 /* PBXTargetDependency */,
 			);
 			name = SimpleBackgroundFetchUITests;
 			productName = SimpleBackgroundFetchUITests;
-			productReference = ABF4C683272DEA3300FE9AC5 /* SimpleBackgroundFetchUITests.xctest */;
+			productReference = ABF4C62C27284B2300FE9AC5 /* SimpleBackgroundFetchUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		ABF4C65B272DEA3100FE9AC5 /* Project object */ = {
+		ABF4C60427284B2100FE9AC5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1300;
 				LastUpgradeCheck = 1300;
 				TargetAttributes = {
-					ABF4C662272DEA3100FE9AC5 = {
+					ABF4C60B27284B2100FE9AC5 = {
 						CreatedOnToolsVersion = 13.0;
 					};
-					ABF4C678272DEA3300FE9AC5 = {
+					ABF4C62127284B2300FE9AC5 = {
 						CreatedOnToolsVersion = 13.0;
-						TestTargetID = ABF4C662272DEA3100FE9AC5;
+						TestTargetID = ABF4C60B27284B2100FE9AC5;
 					};
-					ABF4C682272DEA3300FE9AC5 = {
+					ABF4C62B27284B2300FE9AC5 = {
 						CreatedOnToolsVersion = 13.0;
-						TestTargetID = ABF4C662272DEA3100FE9AC5;
+						TestTargetID = ABF4C60B27284B2100FE9AC5;
 					};
 				};
 			};
-			buildConfigurationList = ABF4C65E272DEA3100FE9AC5 /* Build configuration list for PBXProject "SimpleBackgroundFetch" */;
+			buildConfigurationList = ABF4C60727284B2100FE9AC5 /* Build configuration list for PBXProject "SimpleBackgroundFetch" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -214,37 +226,37 @@
 				en,
 				Base,
 			);
-			mainGroup = ABF4C65A272DEA3100FE9AC5;
-			productRefGroup = ABF4C664272DEA3100FE9AC5 /* Products */;
+			mainGroup = ABF4C60327284B2100FE9AC5;
+			productRefGroup = ABF4C60D27284B2100FE9AC5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				ABF4C662272DEA3100FE9AC5 /* SimpleBackgroundFetch */,
-				ABF4C678272DEA3300FE9AC5 /* SimpleBackgroundFetchTests */,
-				ABF4C682272DEA3300FE9AC5 /* SimpleBackgroundFetchUITests */,
+				ABF4C60B27284B2100FE9AC5 /* SimpleBackgroundFetch */,
+				ABF4C62127284B2300FE9AC5 /* SimpleBackgroundFetchTests */,
+				ABF4C62B27284B2300FE9AC5 /* SimpleBackgroundFetchUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		ABF4C661272DEA3100FE9AC5 /* Resources */ = {
+		ABF4C60A27284B2100FE9AC5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABF4C673272DEA3300FE9AC5 /* LaunchScreen.storyboard in Resources */,
-				ABF4C670272DEA3300FE9AC5 /* Assets.xcassets in Resources */,
-				ABF4C66E272DEA3100FE9AC5 /* Main.storyboard in Resources */,
+				ABF4C61C27284B2300FE9AC5 /* LaunchScreen.storyboard in Resources */,
+				ABF4C61927284B2300FE9AC5 /* Assets.xcassets in Resources */,
+				ABF4C61727284B2100FE9AC5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ABF4C677272DEA3300FE9AC5 /* Resources */ = {
+		ABF4C62027284B2300FE9AC5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ABF4C681272DEA3300FE9AC5 /* Resources */ = {
+		ABF4C62A27284B2300FE9AC5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -254,61 +266,62 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		ABF4C65F272DEA3100FE9AC5 /* Sources */ = {
+		ABF4C60827284B2100FE9AC5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABF4C66B272DEA3100FE9AC5 /* ViewController.swift in Sources */,
-				ABF4C667272DEA3100FE9AC5 /* AppDelegate.swift in Sources */,
-				ABF4C669272DEA3100FE9AC5 /* SceneDelegate.swift in Sources */,
+				ABF4C6D3272DED0800FE9AC5 /* UIView.swift in Sources */,
+				ABF4C61427284B2100FE9AC5 /* ViewController.swift in Sources */,
+				ABF4C61027284B2100FE9AC5 /* AppDelegate.swift in Sources */,
+				ABF4C61227284B2100FE9AC5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ABF4C675272DEA3300FE9AC5 /* Sources */ = {
+		ABF4C61E27284B2300FE9AC5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABF4C67E272DEA3300FE9AC5 /* SimpleBackgroundFetchTests.swift in Sources */,
+				ABF4C62727284B2300FE9AC5 /* SimpleBackgroundFetchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ABF4C67F272DEA3300FE9AC5 /* Sources */ = {
+		ABF4C62827284B2300FE9AC5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABF4C688272DEA3300FE9AC5 /* SimpleBackgroundFetchUITests.swift in Sources */,
-				ABF4C68A272DEA3300FE9AC5 /* SimpleBackgroundFetchUITestsLaunchTests.swift in Sources */,
+				ABF4C63127284B2300FE9AC5 /* SimpleBackgroundFetchUITests.swift in Sources */,
+				ABF4C63327284B2300FE9AC5 /* SimpleBackgroundFetchUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		ABF4C67B272DEA3300FE9AC5 /* PBXTargetDependency */ = {
+		ABF4C62427284B2300FE9AC5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = ABF4C662272DEA3100FE9AC5 /* SimpleBackgroundFetch */;
-			targetProxy = ABF4C67A272DEA3300FE9AC5 /* PBXContainerItemProxy */;
+			target = ABF4C60B27284B2100FE9AC5 /* SimpleBackgroundFetch */;
+			targetProxy = ABF4C62327284B2300FE9AC5 /* PBXContainerItemProxy */;
 		};
-		ABF4C685272DEA3300FE9AC5 /* PBXTargetDependency */ = {
+		ABF4C62E27284B2300FE9AC5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = ABF4C662272DEA3100FE9AC5 /* SimpleBackgroundFetch */;
-			targetProxy = ABF4C684272DEA3300FE9AC5 /* PBXContainerItemProxy */;
+			target = ABF4C60B27284B2100FE9AC5 /* SimpleBackgroundFetch */;
+			targetProxy = ABF4C62D27284B2300FE9AC5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		ABF4C66C272DEA3100FE9AC5 /* Main.storyboard */ = {
+		ABF4C61527284B2100FE9AC5 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				ABF4C66D272DEA3100FE9AC5 /* Base */,
+				ABF4C61627284B2100FE9AC5 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		ABF4C671272DEA3300FE9AC5 /* LaunchScreen.storyboard */ = {
+		ABF4C61A27284B2300FE9AC5 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				ABF4C672272DEA3300FE9AC5 /* Base */,
+				ABF4C61B27284B2300FE9AC5 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -316,7 +329,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		ABF4C68B272DEA3300FE9AC5 /* Debug */ = {
+		ABF4C63427284B2300FE9AC5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -367,7 +380,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -377,7 +390,7 @@
 			};
 			name = Debug;
 		};
-		ABF4C68C272DEA3300FE9AC5 /* Release */ = {
+		ABF4C63527284B2300FE9AC5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -422,7 +435,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -432,61 +445,73 @@
 			};
 			name = Release;
 		};
-		ABF4C68E272DEA3300FE9AC5 /* Debug */ = {
+		ABF4C63727284B2300FE9AC5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 749Y68D6AY;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SimpleBackgroundFetch/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.samrezikram.SimpleBackgroundFetch;
+				PRODUCT_BUNDLE_IDENTIFIER = com.spinvidapp.live;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = SpinVid_Dev_Provisioning;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		ABF4C68F272DEA3300FE9AC5 /* Release */ = {
+		ABF4C63827284B2300FE9AC5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 749Y68D6AY;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SimpleBackgroundFetch/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.samrezikram.SimpleBackgroundFetch;
+				PRODUCT_BUNDLE_IDENTIFIER = com.spinvidapp.live;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = SpinVid_Dev_Provisioning;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		ABF4C691272DEA3300FE9AC5 /* Debug */ = {
+		ABF4C63A27284B2300FE9AC5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -510,7 +535,7 @@
 			};
 			name = Debug;
 		};
-		ABF4C692272DEA3300FE9AC5 /* Release */ = {
+		ABF4C63B27284B2300FE9AC5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -534,7 +559,7 @@
 			};
 			name = Release;
 		};
-		ABF4C694272DEA3300FE9AC5 /* Debug */ = {
+		ABF4C63D27284B2300FE9AC5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -556,7 +581,7 @@
 			};
 			name = Debug;
 		};
-		ABF4C695272DEA3300FE9AC5 /* Release */ = {
+		ABF4C63E27284B2300FE9AC5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -581,43 +606,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		ABF4C65E272DEA3100FE9AC5 /* Build configuration list for PBXProject "SimpleBackgroundFetch" */ = {
+		ABF4C60727284B2100FE9AC5 /* Build configuration list for PBXProject "SimpleBackgroundFetch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ABF4C68B272DEA3300FE9AC5 /* Debug */,
-				ABF4C68C272DEA3300FE9AC5 /* Release */,
+				ABF4C63427284B2300FE9AC5 /* Debug */,
+				ABF4C63527284B2300FE9AC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ABF4C68D272DEA3300FE9AC5 /* Build configuration list for PBXNativeTarget "SimpleBackgroundFetch" */ = {
+		ABF4C63627284B2300FE9AC5 /* Build configuration list for PBXNativeTarget "SimpleBackgroundFetch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ABF4C68E272DEA3300FE9AC5 /* Debug */,
-				ABF4C68F272DEA3300FE9AC5 /* Release */,
+				ABF4C63727284B2300FE9AC5 /* Debug */,
+				ABF4C63827284B2300FE9AC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ABF4C690272DEA3300FE9AC5 /* Build configuration list for PBXNativeTarget "SimpleBackgroundFetchTests" */ = {
+		ABF4C63927284B2300FE9AC5 /* Build configuration list for PBXNativeTarget "SimpleBackgroundFetchTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ABF4C691272DEA3300FE9AC5 /* Debug */,
-				ABF4C692272DEA3300FE9AC5 /* Release */,
+				ABF4C63A27284B2300FE9AC5 /* Debug */,
+				ABF4C63B27284B2300FE9AC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ABF4C693272DEA3300FE9AC5 /* Build configuration list for PBXNativeTarget "SimpleBackgroundFetchUITests" */ = {
+		ABF4C63C27284B2300FE9AC5 /* Build configuration list for PBXNativeTarget "SimpleBackgroundFetchUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ABF4C694272DEA3300FE9AC5 /* Debug */,
-				ABF4C695272DEA3300FE9AC5 /* Release */,
+				ABF4C63D27284B2300FE9AC5 /* Debug */,
+				ABF4C63E27284B2300FE9AC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = ABF4C65B272DEA3100FE9AC5 /* Project object */;
+	rootObject = ABF4C60427284B2100FE9AC5 /* Project object */;
 }
