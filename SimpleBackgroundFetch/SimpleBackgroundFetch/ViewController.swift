@@ -34,6 +34,10 @@ class ViewController: UIViewController, UITextFieldDelegate {
         self.minimumDesiredRate.delegate = self
         self.maximumDesiredRate.delegate = self
         
+        //Looks for single or multiple taps.
+        let tap = UITapGestureRecognizer(target: self, action: #selector(UIInputViewController.dismissKeyboard))
+        self.view.addGestureRecognizer(tap)
+        
         registerForNotifications()
 
         // Load/Update exchange Rates on app start
@@ -55,8 +59,9 @@ class ViewController: UIViewController, UITextFieldDelegate {
             self?.callToViewModelForUIUpdate()
         })
     }
+
     
-    func textFieldShouldBeginEditing(_ textField: UITextField) -> Bool {
+    func textFieldDidEndEditing(_ textField: UITextField) {
         if (textField == self.minimumDesiredRate) {
             self.minimumDesiredRate.text = textField.text
             SharedPrefs.shared.minimumDesiredRate = textField.text ?? ""
@@ -64,7 +69,6 @@ class ViewController: UIViewController, UITextFieldDelegate {
             self.maximumDesiredRate.text = textField.text
             SharedPrefs.shared.maximumDesiredRate = textField.text ?? ""
         }
-        return true
     }
     
     func retrieveSavedTextFieldValues() {
@@ -102,6 +106,11 @@ class ViewController: UIViewController, UITextFieldDelegate {
                     self.renderExchangeRateAndTime(rate: bitcoinExchangeRates.bpi.usd.rate, updateTime: bitcoinExchangeRates.time.updatedISO)
                 }
             }
+    }
+    
+    @objc func dismissKeyboard() {
+        //Causes the view (or one of its embedded text fields) to resign the first responder status.
+        view.endEditing(true)
     }
 }
 
