@@ -65,7 +65,7 @@
                                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="KYz-7u-uTO"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits" keyboardType="numberPad" returnKeyType="done"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="decimalPad" returnKeyType="done"/>
                                     </textField>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Updated At: Sun, Oct 31, 2021 - 12:58 AM" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3PQ-pW-MVV">
                                         <rect key="frame" x="24" y="35" width="326" height="21"/>
@@ -83,7 +83,7 @@
                                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="3Ca-xw-T2s"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits" keyboardType="numberPad" returnKeyType="done"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                                     </textField>
                                 </subviews>
                                 <color key="backgroundColor" red="0.94195257870000004" green="0.73220061189999996" blue="0.1813811189" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
